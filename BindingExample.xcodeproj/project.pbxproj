@@ -13,6 +13,7 @@
 		3143AC2E2ADFABE1007AAE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143AC2D2ADFABE1007AAE9C /* Preview Assets.xcassets */; };
 		3143AC352ADFABFF007AAE9C /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AC342ADFABFF007AAE9C /* StateView.swift */; };
 		3143AC372ADFAC0C007AAE9C /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AC362ADFAC0C007AAE9C /* BindingView.swift */; };
+		31ABB99A2ADFC8C4002BE871 /* ObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ABB9992ADFC8C4002BE871 /* ObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3143AC2D2ADFABE1007AAE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3143AC342ADFABFF007AAE9C /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		3143AC362ADFAC0C007AAE9C /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		31ABB9992ADFC8C4002BE871 /* ObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3143AC282ADFABE0007AAE9C /* ContentView.swift */,
 				3143AC342ADFABFF007AAE9C /* StateView.swift */,
 				3143AC362ADFAC0C007AAE9C /* BindingView.swift */,
+				31ABB9992ADFC8C4002BE871 /* ObservableView.swift */,
 				3143AC2A2ADFABE1007AAE9C /* Assets.xcassets */,
 				3143AC2C2ADFABE1007AAE9C /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31ABB99A2ADFC8C4002BE871 /* ObservableView.swift in Sources */,
 				3143AC352ADFABFF007AAE9C /* StateView.swift in Sources */,
 				3143AC292ADFABE0007AAE9C /* ContentView.swift in Sources */,
 				3143AC372ADFAC0C007AAE9C /* BindingView.swift in Sources */,

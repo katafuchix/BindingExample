@@ -15,7 +15,10 @@ struct ContentView: View {
                     Section(header: Text("Example")) {
                         Group {
                             NavigationLink("State", destination: StateView())
+                            
                             NavigationLink("Binding", destination: BindingView())
+                            
+                            NavigationLink("Observable", destination:ObservableView())
                         }
                     }
                 }
