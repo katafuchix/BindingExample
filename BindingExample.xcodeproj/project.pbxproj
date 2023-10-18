@@ -11,6 +11,8 @@
 		3143AC292ADFABE0007AAE9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AC282ADFABE0007AAE9C /* ContentView.swift */; };
 		3143AC2B2ADFABE1007AAE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143AC2A2ADFABE1007AAE9C /* Assets.xcassets */; };
 		3143AC2E2ADFABE1007AAE9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3143AC2D2ADFABE1007AAE9C /* Preview Assets.xcassets */; };
+		3143AC352ADFABFF007AAE9C /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AC342ADFABFF007AAE9C /* StateView.swift */; };
+		3143AC372ADFAC0C007AAE9C /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3143AC362ADFAC0C007AAE9C /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3143AC282ADFABE0007AAE9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3143AC2A2ADFABE1007AAE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3143AC2D2ADFABE1007AAE9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3143AC342ADFABFF007AAE9C /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		3143AC362ADFAC0C007AAE9C /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3143AC262ADFABE0007AAE9C /* BindingExampleApp.swift */,
 				3143AC282ADFABE0007AAE9C /* ContentView.swift */,
+				3143AC342ADFABFF007AAE9C /* StateView.swift */,
+				3143AC362ADFAC0C007AAE9C /* BindingView.swift */,
 				3143AC2A2ADFABE1007AAE9C /* Assets.xcassets */,
 				3143AC2C2ADFABE1007AAE9C /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3143AC352ADFABFF007AAE9C /* StateView.swift in Sources */,
 				3143AC292ADFABE0007AAE9C /* ContentView.swift in Sources */,
+				3143AC372ADFAC0C007AAE9C /* BindingView.swift in Sources */,
 				3143AC272ADFABE0007AAE9C /* BindingExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +277,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BindingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +296,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sample.BindingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +308,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BindingExample/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +327,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sample.BindingExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

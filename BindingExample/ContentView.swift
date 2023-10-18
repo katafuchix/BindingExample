@@ -10,12 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            NavigationStack {
+                List {
+                    Section(header: Text("Example")) {
+                        Group {
+                            NavigationLink("State", destination: StateView())
+                            NavigationLink("Binding", destination: BindingView())
+                        }
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
