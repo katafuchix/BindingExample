@@ -27,6 +27,8 @@ import SwiftUI
 
 struct ObservableView: View {
     @State private var model = MyModel()
+    // @Bindable のほうがよい？
+    // https://developer.apple.com/documentation/swiftui/bindable
     
     var body: some View {
         Text(model.text)
